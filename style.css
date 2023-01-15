@@ -61,3 +61,36 @@ body{
     margin: 1.5rem 0rem;
     width: 100%;
 }
+
+@media (max-width:750px) {
+    .Title{
+        height: 2rem;
+        padding: 1rem;
+    }
+    .Main{
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+    }
+    .Main .Main_center .left{
+        display: grid;
+        place-items: center;
+    }
+    .Main .Main_center .left img{
+        width: 80%;
+    }
+    .Main .Main_center{
+        grid-template-columns: 100%; 
+        margin: 0;
+        gap: 5rem;
+    }
+    .Main .Main_center .right{
+        padding: 1rem;
+    }
+    .Main .Main_center .right p{
+        margin-bottom: 4rem;
+    }
+    .Main .Main_center .right h1{
+        line-height: 4rem;
+        font-size: 3rem;
+    }
+}
