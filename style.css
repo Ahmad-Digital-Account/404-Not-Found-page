@@ -20,7 +20,7 @@ body{
 }
 .Main{
     width: 100%;
-    margin: 5rem 0rem;
+    margin: 5rem 0rem 15rem 0rem;
     display: grid;
     place-items: center;
 }
@@ -53,4 +53,11 @@ body{
     padding: 1rem 2rem;
     font-size: 0.7rem;
     text-transform: uppercase;
+}
+.BottonTitle{
+    text-align: center;
+    color: #BDBDBD;
+    font-size: 0.8rem;
+    margin: 1.5rem 0rem;
+    width: 100%;
 }
